@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 // Given an integer n, return the absolute difference between n and 21, except return double the absolute difference if n is over 21.
 
-public class Diff21 {
+public class Diff21_warmup1 {
 
 	public static void main(String[] args) {
 		int n;
