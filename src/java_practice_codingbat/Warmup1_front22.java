@@ -1,0 +1,26 @@
+package java_practice_codingbat;
+
+import java.util.Scanner;
+
+//Given a string, take the first 2 chars and return the string with the 2 chars added at both the front and back, so "kitten" yields"kikittenki". If the string length is less than 2, use whatever chars are there.
+
+public class Warmup1_front22 {
+
+	public static void main(String[] args) {
+		String str;
+		Scanner input = new Scanner(System.in);
+
+		System.out.print("Enter the string: ");
+		str = input.next();
+		System.out.println(front22(str));
+
+		input.close();
+	}
+
+	public static String front22(String str) {
+		if (str.length() < 2)
+			return str + str + str;
+		else
+			return str.substring(0, 2) + str + str.substring(0, 2);
+	}
+}
