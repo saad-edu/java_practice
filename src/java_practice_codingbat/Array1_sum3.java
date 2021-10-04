@@ -2,7 +2,7 @@ package java_practice_codingbat;
 
 import java.util.Scanner;
 
-//Given an array of integers length 3, return the sum of all the elements.
+//Given array of integers length 3, return the sum of all the elements.
 
 public class Array1_sum3 {
 

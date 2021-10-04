@@ -2,7 +2,7 @@ package java_practice_codingbat;
 
 import java.util.Scanner;
 
-//Given 2 arrays of integers, a and b, return true if they have the same first element or they have the same last element. Both arrays will be length 1 or more.
+//Given 2 integer arrays, a and b, return true if they have the same first element or they have the same last element. Both arrays will be length 1 or more.
 
 public class Array1_commonEnd {
 
