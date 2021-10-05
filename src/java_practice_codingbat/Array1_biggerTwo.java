@@ -14,7 +14,7 @@ public class Array1_biggerTwo {
 		b = getArray();
 		System.out.println("Second array is " + Arrays.toString(b));
 		System.out.println(biggerTwo(a, b));
-
+		
 	}
 
 	public static int[] getArray() {
@@ -27,7 +27,7 @@ public class Array1_biggerTwo {
 			System.out.print("Enter array element " + (i + 1) + ": ");
 			nums[i] = input.nextInt();
 		}
-
+		
 		input.close();
 		return nums;
 
